@@ -15,11 +15,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #444;
 }
 
 h1 {
 	font-size: 40px;
+  color: #fac850;
 }
 
 h2 {
@@ -122,6 +122,27 @@ form.signup input.form-control:focus {
 	border-color: #fd680e;
 }
 
+.btn {
+  background: #fac850;
+  background-image: -webkit-linear-gradient(top, #fac850, ##fac850);
+  background-image: -moz-linear-gradient(top, #fac850, ##fac850);
+  background-image: -ms-linear-gradient(top, #fac850, ##fac850);
+  background-image: -o-linear-gradient(top, #fac850, ##fac850);
+  background-image: linear-gradient(to bottom, #fac850, ##fac850);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #755919;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #4f3600 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
 
 /* wrapper */
 
@@ -149,7 +170,7 @@ form.signup input.form-control:focus {
 #wrapper h1 {
 	margin-top: 20px;
 	margin-bottom: 40px;
-	color: #000;
+	color: #fac850;
 	font-size: 45px;
 	font-weight: 900;
 	letter-spacing: -1px;
