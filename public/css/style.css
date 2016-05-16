@@ -1,9 +1,9 @@
 /* ==== Google font ==== */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300,600);
 
 body {
-	background: #6ac0bd;
-    font-family: 'Lato', sans-serif;
+	background: white;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #444;
 }
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-	color: #fff;
+	color: #000;
 }
 
 h3 {
@@ -100,12 +100,12 @@ a:after {
 }
 
 .btn-theme  {
-  color: #fff;
+  color: #000;
   background-color: #4F92AF;
   border-color: #4F92AF;
 }
 .btn-theme:hover  {
-  color: #fff;
+  color: #000;
   background-color: #444;
   border-color: #444;
 }
@@ -127,7 +127,6 @@ form.signup input.form-control:focus {
 
 #wrapper {
 	text-align: center;
-	background: url(../img/main-bg-compressor.jpg) no-repeat center top;
 	background-attachment: relative;
 	background-position: center center;
     box-sizing:border;
@@ -150,7 +149,7 @@ form.signup input.form-control:focus {
 #wrapper h1 {
 	margin-top: 20px;
 	margin-bottom: 40px;
-	color: #fff;
+	color: #000;
 	font-size: 45px;
 	font-weight: 900;
 	letter-spacing: -1px;
@@ -175,14 +174,14 @@ form.signup input.form-control:focus {
 }
 
 h2.subtitle {
-	color: #fff;
+	color: #000;
 	font-size: 24px;
 }
 
 /* countdown */
 #countdown {
 	font-size: 48px;
-	color: #fff;
+	color: #000;
 	line-height: 1.1em;
 	margin: 40px 0 60px;
 }
@@ -191,7 +190,7 @@ h2.subtitle {
 /* footer */
 p.copyright {
 	margin-top: 150px;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
@@ -238,7 +237,7 @@ p.copyright {
   padding: 7px 10px 7px 20px;
   left:auto;
   right:0px;
-  color: #fff;
+  color: #000;
 }
 .result.success{
   background: #2ecc71;
