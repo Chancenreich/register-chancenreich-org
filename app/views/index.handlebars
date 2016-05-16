@@ -1,97 +1,96 @@
 <!-- Facebook SDK for Javascript -->
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{{ fb_app_id}}',
-      xfbml      : true,
-      version    : 'v2.6'
-    });
-  };
+window.fbAsyncInit = function() {
+  FB.init({
+appId      : '{{ fb_app_id}}',
+xfbml      : true,
+version    : 'v2.6'
+});
+};
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+(function(d, s, id){
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) {return;}
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/en_US/sdk.js";
+ fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
 </script>
 
 <div id="wrapper">
-    <div class="container hidden-xs hidden-sm">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>
-                    Österreichs erste Berufsmesse <br>
-                    für geflüchtete Menschen
-                </h3>
-                <h3>
-                    النمسا في أول معرض لتوظيف اللاجئين
-                </h3>
-                <h2>
-                  Anmeldung | Registration | التسجيل
-                </h2>
-            </div>
-        </div>
-
+  <div class="container ">
+    <div class="row hidden-xs hidden-sm">
+      <div class="col-md-12">
+        <h3>
+          Österreichs erste Berufsmesse <br>
+          für geflüchtete Menschen
+        </h3>
+        <h3>
+          النمسا في أول معرض لتوظيف اللاجئين
+        </h3>
+        <h2>
+          Anmeldung | Registration | التسجيل
+        </h2>
         <div class="row mb-30">
-            <!-- Change the width and height values to suit you best -->
-            <div class="typeform-widget" data-url="https://beavr.typeform.com/to/TXSqWG" data-text="[EN] Chancenreich Signup" style="width:100%;height:500px;"></div>
-            <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+          <!-- Change the width and height values to suit you best -->
+          <div class="typeform-widget" data-url="https://beavr.typeform.com/to/TXSqWG" data-text="[EN] Chancenreich Signup" style="width:100%;height:500px;"></div>
+          <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
         </div>
-
-        <div class="row mb-30 pr-0 pl-0 mr-0 mr-0">
-            <div class="col-sm-12 align-center mt-30">
-                <h3 style="margin-top: 45px; margin-bottom: 0px; color: white; font-weight: 100; color:black">
-                    تابعنا في الفيسبوك | Folge uns | Follow us
-                </h3>
-                <ul class="social-network social-circle mb-30">
-                    <li><a href="https://www.facebook.com/chancenreich2016" class="icoFacebook" style="color: black" title="Facebook"><i class="fa fa-facebook" style="color:black"></i></a>
-                    </li>
-                    <li><a href="mailto:team@chancenreich.org" class="icoFacebook"  title="Email"><i class="fa fa-envelope" style="color: black"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+      </div>
     </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="mt-30">
-                    Österreichs erste Berufsmesse <br>
-                    für geflüchtete Menschen
-                </h3>
-                <h3 class="mt-30 mb-30">
-                    النمسا في أول معرض لتوظيف اللاجئين
-                    <br>
-                    <br>
-                    <br>
-                </h3>
-                <h3 class="mt-30">
-                  Anmeldung | Registration | التسجيل
-                </h3>
-                <div id="button-wrap">
-                  <h2><br><br> </h2>
-                   <div id="button-wrap-inner">
-                     <a class="btn" href="https://beavr.typeform.com/to/TXSqWG">تسجيل | Register | Anmelden</a>
-                   </div>
-                </div>
-            </div>
-        </div>
+    <div class="row mb-30 pr-0 pl-0 mr-0 mr-0 hidden-xs hidden-sm">
+      <div class="col-sm-12 align-center mt-30">
+        <h3 style="margin-top: 45px; margin-bottom: 0px; color: white; font-weight: 100; color:black">
+          تابعنا في الفيسبوك | Folge uns | Follow us
+        </h3>
+        <ul class="social-network social-circle mb-30">
+          <li><a href="https://www.facebook.com/chancenreich2016" class="icoFacebook" style="color: black" title="Facebook"><i class="fa fa-facebook" style="color:black"></i></a>
+          </li>
+          <li><a href="mailto:team@chancenreich.org" class="icoFacebook"  title="Email"><i class="fa fa-envelope" style="color: black"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-        <div class="row mb-30 pr-0 pl-0 mr-0 mr-0">
-            <div class="col-sm-12 align-center mt-30">
-                <h3 style="margin-top: 45px; margin-bottom: 0px; color: white; font-size: 15px; font-weight: 100; color:black">
-                    تابعنا في الفيسبوك | Folge uns | Follow us
-                </h3>
-                <ul class="social-network social-circle mb-30">
-                    <li><a href="https://www.facebook.com/chancenreich2016" class="icoFacebook" style="color: black" title="Facebook"><i class="fa fa-facebook" style="color:black"></i></a>
-                    </li>
-                    <li><a href="mailto:team@chancenreich.org" class="icoFacebook"  title="Email"><i class="fa fa-envelope" style="color: black"></i></a>
-                    </li>
-                </ul>
-            </div>
+
+  <div class="row hidden-md hidden-lg">
+    <div class="col-md-12">
+      <h3 class="mt-30">
+        Österreichs erste Berufsmesse <br>
+        für geflüchtete Menschen
+      </h3>
+      <h3 class="mt-30 mb-30">
+        النمسا في أول معرض لتوظيف اللاجئين
+        <br>
+        <br>
+        <br>
+      </h3>
+      <h3 class="mt-30">
+        Anmeldung | Registration | التسجيل
+      </h3>
+      <div id="button-wrap">
+        <h2><br><br> </h2>
+        <div id="button-wrap-inner">
+          <a class="btn" href="https://beavr.typeform.com/to/TXSqWG">تسجيل | Register | Anmelden</a>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-30 pr-0 pl-0 mr-0 mr-0 hidden-md hidden-lg hidden-xl">
+    <div class="col-sm-12 align-center mt-30">
+      <h3 style="margin-top: 45px; margin-bottom: 0px; color: white; font-size: 14px; font-weight: 100; color:black">
+        تابعنا في الفيسبوك | Folge uns | Follow us
+      </h3>
+      <ul class="social-network social-circle mb-30">
+        <li><a href="https://www.facebook.com/chancenreich2016" class="icoFacebook" style="color: black" title="Facebook"><i class="fa fa-facebook" style="color:black"></i></a>
+        </li>
+        <li><a href="mailto:team@chancenreich.org" class="icoFacebook"  title="Email"><i class="fa fa-envelope" style="color: black"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </div>
